@@ -43,3 +43,27 @@
         console.log(hello)
         console.log(message)
 
+/* 
+    remember that we cannot declare 2 or more variables with the same name
+
+            let message = 'hello world'
+
+            let message = 'world'  --> leads to an error variable message is already declared
+*/
+
+/* 
+                variable naming
+
+        the name must contain only letters, numbers, or the symbols $ and _(underscore)
+
+        first character can not be a number
+*/
+
+/* 
+            RESERVED WORDS
+
+            cannot be used as variable names
+
+            let, return, function, etc...
+*/
+
