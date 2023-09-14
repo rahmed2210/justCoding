@@ -1,13 +1,13 @@
 //       ---- condition operator  ----
 
 
-// let accessAllowed;
-// let year = prompt('in which year was football world cup held')
-// if (year == 2000) {
-//     accessAllowed = true;
-// } else (year == 2004) {
-//     accessAllowed = false;
-// }
+let accessAllowed;
+let year = prompt('in which year was football world cup held')
+if (year == 2000) {
+    accessAllowed = true;
+} else (year == 2004) {
+    accessAllowed = false;
+}
 
 // alert(accessAllowed)
 
@@ -24,16 +24,16 @@ alert(accessAllowed)
 
 //----------------------------------------------------------------
 
-/*
-let age = prompt('age?', 18);
 
-let message = (age<3) ? 'Hi' :
-    (age<18) ? 'hello':
-    (age<100) ? 'Gretting' :
+let age2 = prompt('age2?', 18);
+
+let message = (age2<3) ? 'Hi' :
+    (age2<18) ? 'hello':
+    (age2<100) ? 'Gretting' :
     'What an unusual age';
 
 alert(message)
-*/
+
 
 
 // example with If conditions
