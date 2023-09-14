@@ -67,3 +67,12 @@
             let, return, function, etc...
 */
 
+let name = 'john'
+let age = 34
+
+let user = name
+
+
+console.log(name)
+console.log(age)
+console.log(user)
