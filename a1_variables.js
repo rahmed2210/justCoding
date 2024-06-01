@@ -69,7 +69,7 @@
 
 let name = 'john'
 let age = 34
-
+let height = '5ft 10in'
 let user = name
 
 
