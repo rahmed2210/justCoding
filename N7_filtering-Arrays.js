@@ -27,6 +27,15 @@ const findNotes = function (notes, query) {
 
 console.log(findNotes(notes, 'eating'))
 
+/* or
+//-->   Filtering Arrays (searching)
+const filterNotes = notes.filter(function (note, index) {
+    const isTitleMatch = note.title.toLowerCase().includes('ne')
+    const isBodyMatch = note.body.toLowerCase().includes('ne')
+    return isTitleMatch || isBodyMatch
+}) */
+
+
 
 
 // const findNote = function (notes, noteTitle) {
